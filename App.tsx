@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useEffect, useState } from "react";
-import { SafeAreaView, View, StyleSheet, Text, FlatList } from "react-native";
+import { SafeAreaView, StyleSheet, Text, FlatList } from "react-native";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
